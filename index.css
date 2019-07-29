@@ -1,50 +1,87 @@
-
-body {
-	background-color: white;
-	margin: 0 auto;
-}
-header {
-	margin-top: 0;
-}
-.top {
- 	display: flex;
-	justify-content: flex-end; 
-}
-.top li {
-	margin-top: 0;
-	margin-right: 15px;
-}
-.sign-in {
-	margin-top: 0;
-	margin-right: 15px;
-}
-ul {
-	list-style: none;
-	padding: 0;
-}
- a {
-	text-decoration: none;
-	color: black;
-}
 #main {
-	/*background-color: red;*/
 	margin: 0 auto;
 	text-align: center;
-	height: 80vh;
-	padding: 15px;
+	padding-top: 10em;
+}
+ ul li {
+ 	margin: 0.5em;
+ }
+
+ ul a {
+ 	text-decoration: none;
+ 	color: black; 
+ }
+
+ ul a:hover {
+ 	border: 1px solid rgb(191, 188, 182);
+ 	background-color: rgb(191, 188, 182);
+ 	border-radius: 5px;
+ 	padding: 5px;
+ }
+
+ input {
+ 	margin: 10px;
+ 	border-radius: 10px;
+ 	width: 30%;
+ 	height: 35px;
+ }
+
+ .search {
+ 	margin: 5px;
+ 	border-radius: 5%;
+ 	height: 30px;
+ }
+
+.sign-in {
+	width: 58px;
+	height: 28px;
+	padding: 0;
+	border-radius: 5px;
+	background-color: rgb(87, 96, 171);
+}
+.sign-in a {
+	color: white;
+}
+.sign-in a:hover {
+	background-color: rgb(87, 96, 171);
+	border:0;
+}
+
+
+.flex{
+	display: flex;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.top {
+	justify-content: flex-end;
+	align-items: center;
+}
+.right {
+	margin-left: auto;
 }
 footer {
 	position: fixed;
 	bottom: 0;
 	left: 0;
 	right: 0;
+	padding: 5px;
+	background-color: rgb(235, 231, 223);
+
 }
-footer nav ul {
-	display: flex;
-	margin: 5px;
-	vertical-align: middle;
+@media (max-width: 500px){
+	input {
+ 	width: 60%;
+ }
+ #main {
+	padding-top: 5em;
 }
-footer nav ul li {
-	margin-right: 5px;
-	margin-left: 5px;
+.bottom {
+	flex-wrap: wrap;
+	justify-content: center;
+}	
+	.right {
+	margin-left: 0;
+}
 }

@@ -44,14 +44,11 @@ body {
 	border: 1px solid black;
 	border-radius: 5px;
 	background-color: rgb(87, 96, 171);
-
-}
-.sign-in a {
 	color: white;
 	vertical-align: middle;
-	padding-left: 2px;
-}
+	padding-left: 3.5px;
 
+}
 
 .flex{
 	display: flex;

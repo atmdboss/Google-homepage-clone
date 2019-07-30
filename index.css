@@ -41,15 +41,15 @@ body {
 	width: 58px;
 	height: 28px;
 	padding: 0;
+	border: 1px solid black;
 	border-radius: 5px;
 	background-color: rgb(87, 96, 171);
+
 }
 .sign-in a {
 	color: white;
-}
-.sign-in a:hover {
-	background-color: rgb(87, 96, 171);
-	border:0;
+	vertical-align: middle;
+	padding-left: 2px;
 }
 
 
